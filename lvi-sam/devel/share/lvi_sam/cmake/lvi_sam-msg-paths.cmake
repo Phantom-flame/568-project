@@ -1,0 +1,4 @@
+# generated from genmsg/cmake/pkg-msg-paths.cmake.develspace.in
+
+set(lvi_sam_MSG_INCLUDE_DIRS "/home/shivam/catkin_ws3/src/LVI-SAM-Easyused/msg")
+set(lvi_sam_MSG_DEPENDENCIES geometry_msgs;std_msgs;nav_msgs;sensor_msgs)
