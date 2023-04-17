@@ -87,23 +87,15 @@ roslaunch lvi_sam run.launch
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
 
-## Paper 
-
-TODO
-
+## Paper
+Thank you for citing our [SLAM Evaluation Paper (2023)](./doc/Evaluation-of-Visual-LiDAR-and-Inertial-SLAM-Algorithms.pdf) if you use any of this code.
 ```
-@inproceedings{lvisam2021shan,
-  title={LVI-SAM: Tightly-coupled Lidar-Visual-Inertial Odometry via Smoothing and Mapping},
-  author={Shan, Tixiao and Englot, Brendan and Ratti, Carlo and Rus Daniela},
-  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
-  pages={5692-5698},
-  year={2021},
-  organization={IEEE}
+@inproceedings{slameval2023,
+  title={Evaluation of Visual, LiDAR, and Inertial SLAM Algorithms},
+  author={Chen, Danny and Ye, Junjiang and Patel, Shivam and Buca, Kevin},
+  year={2023},
 }
 ```
 
----
-
 ## Acknowledgement
 We would like to thank Prof. Maani, the GSIs, the IAs, and the graders for a great learning experience in this course and all the assistance we received on this project. 
-
