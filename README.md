@@ -4,7 +4,7 @@ Emails: dannych@umich.edu, junjiang@umich.edu, shivamgp@umich.edu, kbuca@umich.e
 EECS 568 Final Project - University of Michigan - Ann Arbor, MI USA
 
 ## Abstract
-Sensor fusion is essential for autonomous systems as it serves as collecting accurate environment information to make correct decisions. We evaluate tightly-coupled lidar inertial odometry via smoothing and mapping (LIO-SAM) and tightly-coupled lidar-visual-inertial odometry via smoothing and mapping (LVI-SAM) from different aspects. We use multiple datasets to verify the robustness of each algorithms. Moreover, we compare the runtime and accuracy to evaluate performance for batch implementations while inserting large sensor noise. We also simulate the improved algorithms in a self-defined maze on Gazebo to challenge the stability of both LIO-SAM and LVI-SAM.
+Sensor fusion is essential for autonomous systems as it serves to collect and combine accurate environment information to make correct decisions. We evaluate tightly-coupled lidar inertial odometry via smoothing and mapping (LIO-SAM) \cite{shan2020lio} and tightly-coupled lidar-visual-inertial odometry via smoothing and mapping (LVI-SAM) \cite{shan2021lvi} from different aspects. We use multiple datasets to verify the robustness of each algorithm. Moreover, we compare the runtime and accuracy to evaluate performance. We also simulate the improved algorithms in a self-defined maze on Gazebo to challenge the stability of both LIO-SAM and LVI-SAM.
 
 ## Dependency
 - [ROS](http://wiki.ros.org/ROS/Installation) (Tested with kinetic and melodic)
